@@ -16,9 +16,9 @@ var application = {
     },
     content: {
         application : {
-            name : 'A Bluedot Application',
-            packageName: "au.com.bluedot.creationtest5",
-            nextRuleUpdateIntervalFormatted: '00:07'
+            "name" : 'A Bluedot Application',
+            "packageName": "au.com.bluedot.creationtest5",
+            "nextRuleUpdateIntervalFormatted": '00:07'
         }
     }
 };

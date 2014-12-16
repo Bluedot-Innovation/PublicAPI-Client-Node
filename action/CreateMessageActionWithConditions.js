@@ -6,13 +6,13 @@
 var request = require('request');
     var fenceData =
         {
-            security: {
-                apiKey : '5a71ce9b-c92d-44fa-9990-c6ecbdc56066',
-                customerApiKey: '564ecdc0-7e86-11e4-95ff-a0481cdba483'
+            "security": {
+                "apiKey" : '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483',
+                "customerApiKey": '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483'
             },
-            content: {
-                zone: {
-                    zoneId: 'a040db81-e541-48f5-9ca4-7c5ac7ddbe44',
+            "content": {
+                "zone": {
+                    "zoneId": 'a040db81-e541-48f5-9ca4-7c5ac7ddbe44',
                     "actions": {
                         "messageActions": [
                             {

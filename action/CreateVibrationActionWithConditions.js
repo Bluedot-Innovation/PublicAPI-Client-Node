@@ -6,17 +6,17 @@
 var request = require('request');
     var fenceData =
         {
-            security: {
-                apiKey : 'eeaed830-7c2e-4175-969a-70ea53e1845e',
-                customerApiKey: '86577370-7b91-11e4-bcb7-a0481cdc3311'
+            "security": {
+                "apiKey" : '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483',
+                "customerApiKey": '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483'
             },
-            content: {
-                zone: {
-                    zoneId: '6059bd44-578b-4db6-ae0b-b54721355de2',
+            "content": {
+                "zone": {
+                    "zoneId": '6059bd44-578b-4db6-ae0b-b54721355de2',
                     "actions": {
                         "vibrationActions": [
                             {
-                                name : 'My Application actions1',
+                                "name" : 'My Application actions1',
                                 "conditions": {
                                     "percentageCrossed":
                                         [

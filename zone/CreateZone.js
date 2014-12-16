@@ -6,12 +6,12 @@
 var request = require('request');
 var fenceData =
 {
-    security: {
-        apiKey : '6cb63bdd-c6fa-43f4-a155-a0dc0919fae0',
-        customerApiKey: '564ecdc0-7e86-11e4-95ff-a0481cdba483'
+    "security": {
+        "apiKey" : '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483',
+        "customerApiKey": '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483'
     },
-    content: {
-        zone:     {
+    "content": {
+        "zone": {
             "zoneName": "starbucks",
             "minimumRetriggerTime": "00:01",
             "timeActive": {

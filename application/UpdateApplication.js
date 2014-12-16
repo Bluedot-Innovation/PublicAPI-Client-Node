@@ -7,19 +7,19 @@
 var request = require('request');
 
 var application = {
-    security: {
+    "security": {
         /*
          customerApiKey is generated when customer registers first time. It is also available
          on the PointAccess interface in the Edit Profile section.
          */
-        customerApiKey: '564ecdc0-7e86-11e4-95ff-a0481cdba483'
+        "customerApiKey": '564ecdc0-7e86-11e4-95ff-a0481cdba483'
     },
-    content: {
-        application : {
-            applicationId : '564ecdc0-7e86-11e4-95ff-a0481cdba490',
-            name : 'A Bluedot Application',
-            packageName: "au.com.bluedot.creationtest5",
-            nextRuleUpdateIntervalFormatted: '00:07'
+    "content": {
+        "application" : {
+            "applicationId" : '564ecdc0-7e86-11e4-95ff-a0481cdba490',
+            "name" : 'A Bluedot Application',
+            "packageName": "au.com.bluedot.creationtest5",
+            "nextRuleUpdateIntervalFormatted": '00:07'
         }
     }
 };

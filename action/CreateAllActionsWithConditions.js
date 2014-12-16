@@ -6,16 +6,20 @@ var request = require('request');
     var fenceData =
         {
             "security": {
-                apiKey : '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483',
-                customerApiKey: '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483'
+                "apiKey" : '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483',
+                /*
+                 customerApiKey is generated when customer registers first time. It is also available
+                 on the PointAccess interface in the Edit Profile section.
+                 */                
+                "customerApiKey": '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483'
             },
             "content": {
                 "zone": {
-                    zoneId: '40126395-7228-4b57-a720-1784859bb5c3',
+                    "zoneId": '40126395-7228-4b57-a720-1784859bb5c3',
                     "actions": {
                         "soundActions": [
                             {
-                                name : 'A Sound Action',
+                                "name" : 'A Sound Action',
                                 "conditions": {
                                     "percentageCrossed":
                                         [
@@ -45,7 +49,7 @@ var request = require('request');
                         ],
                         "customActions": [
                             {
-                                name : 'A custom action',
+                                "name" : 'A custom action',
                                 "conditions": {
                                     "percentageCrossed":
                                         [
@@ -75,7 +79,7 @@ var request = require('request');
                         ],
                         "vibrationActions": [
                             {
-                                name : 'A Vibration Action',
+                                "name" : 'A Vibration Action',
                                 "conditions": {
                                     "percentageCrossed":
                                         [
@@ -137,8 +141,8 @@ var request = require('request');
                         ],
                         "urlActions": [
                             {
-                                name : 'A URL Action to open Bluedot web site',
-                                url : 'http://wwww.bluedotinnovation.com',
+                                "name" : 'A URL Action to open Bluedot web site',
+                                "url" : 'http://wwww.bluedotinnovation.com',
                                 "conditions": {
                                     "percentageCrossed":
                                         [
