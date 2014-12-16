@@ -19,6 +19,7 @@ var application = {
             "applicationId" : '564ecdc0-7e86-11e4-95ff-a0481cdba490',
             "name" : 'A Bluedot Application',
             "packageName": "au.com.bluedot.creationtest5",
+            /* Time in Hour:Minute format.*/
             "nextRuleUpdateIntervalFormatted": '00:07'
         }
     }

@@ -18,6 +18,7 @@ var application = {
         application : {
             "name" : 'A Bluedot Application',
             "packageName": "au.com.bluedot.creationtest5",
+            /* Time in Hour:Minute format.*/
             "nextRuleUpdateIntervalFormatted": '00:07'
         }
     }

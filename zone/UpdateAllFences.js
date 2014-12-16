@@ -8,6 +8,10 @@ var fenceData =
 {
             "security": {
                 "apiKey" : '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483',
+                /*
+                 customerApiKey is generated when customer registers first time. It is also available
+                 on the PointAccess interface in the Edit Profile section.
+                 */                
                 "customerApiKey": '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483'
             },
             "content": {

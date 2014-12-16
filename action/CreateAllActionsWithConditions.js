@@ -25,6 +25,7 @@ var request = require('request');
                                         [
                                             {
                                                 "percentage": 45,
+                                                /* Time in Hour:Minute format.*/
                                                 "timeoutPeriod": "00:01"
                                             }
                                         ],
@@ -36,10 +37,12 @@ var request = require('request');
                                     ],
                                     "timeActive": [{
                                         "from": {
+                                            /* Time in Hour:Minute format.*/
                                             "time": "10:00",
                                             "period": "am"
                                         },
                                         "to": {
+                                            /* Time in Hour:Minute format.*/
                                             "time": "2:00",
                                             "period": "pm"
                                         }
@@ -66,10 +69,12 @@ var request = require('request');
                                     ],
                                     "timeActive": [{
                                         "from": {
+                                            /* Time in Hour:Minute format.*/
                                             "time": "10:00",
                                             "period": "am"
                                         },
                                         "to": {
+                                            /* Time in Hour:Minute format.*/
                                             "time": "2:00",
                                             "period": "pm"
                                         }
@@ -85,6 +90,7 @@ var request = require('request');
                                         [
                                             {
                                                 "percentage": 45,
+                                                /* Time in Hour:Minute format.*/
                                                 "timeoutPeriod": "00:01"
                                             }
                                         ],
@@ -96,10 +102,12 @@ var request = require('request');
                                     ],
                                     "timeActive": [{
                                         "from": {
+                                            /* Time in Hour:Minute format.*/
                                             "time": "10:00",
                                             "period": "am"
                                         },
                                         "to": {
+                                            /* Time in Hour:Minute format.*/
                                             "time": "2:00",
                                             "period": "pm"
                                         }
@@ -117,6 +125,7 @@ var request = require('request');
                                         [
                                             {
                                                 "percentage": 45,
+                                                /* Time in Hour:Minute format.*/
                                                 "timeoutPeriod": "00:01"
                                             }
                                         ],
@@ -128,10 +137,12 @@ var request = require('request');
                                     ],
                                     "timeActive": [{
                                         "from": {
+                                            /* Time in Hour:Minute format.*/
                                             "time": "10:00",
                                             "period": "am"
                                         },
                                         "to": {
+                                            /* Time in Hour:Minute format.*/
                                             "time": "2:00",
                                             "period": "pm"
                                         }
@@ -159,10 +170,12 @@ var request = require('request');
                                     ],
                                     "timeActive": [{
                                         "from": {
+                                            /* Time in Hour:Minute format.*/
                                             "time": "10:00",
                                             "period": "am"
                                         },
                                         "to": {
+                                            /* Time in Hour:Minute format.*/
                                             "time": "2:00",
                                             "period": "pm"
                                         }
