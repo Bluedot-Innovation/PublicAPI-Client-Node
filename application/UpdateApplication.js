@@ -12,12 +12,12 @@ var application = {
          customerApiKey is generated when customer registers first time. It is also available
          on the PointAccess interface in the Edit Profile section.
          */
-        "customerApiKey": '564ecdc0-7e86-11e4-95ff-a0481cdba483'
+        "customerApiKey": "86577370-7b91-11e4-bcb7-a0481cdc3311"
     },
     "content": {
         "application" : {
-            "applicationId" : '564ecdc0-7e86-11e4-95ff-a0481cdba490',
-            "name" : 'A Bluedot Application',
+            "applicationId" : '6e28197b-81a3-4995-9990-93ea3178cb5e',
+            "name" : 'A Bluedot Application - Updated',
             "packageName": "au.com.bluedot.creationtest5",
             /* Time in Hour:Minute format.*/
             "nextRuleUpdateIntervalFormatted": '00:07'

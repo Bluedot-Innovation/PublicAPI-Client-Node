@@ -1,9 +1,9 @@
 {
-  "name": "PublicApi node client",
+  "name": "PublicApi-node-client",
   "description": "PublicApi node client",
   "version": "0.1.0",
   "private": false,
   "dependencies": {    
-	  "request": "~2.27.0",
+	  "request": "~2.27.0"
   }  
 }
