@@ -7,20 +7,20 @@ var request = require('request');
     var fenceData =
             {
             "security": {
-                "apiKey" : '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483',
+                "apiKey" : "c2c8211f-796f-4eda-b6ce-05467b5263a9",
                 /*
                  customerApiKey is generated when customer registers first time. It is also available
                  on the PointAccess interface in the Edit Profile section.
-                 */                
-                "customerApiKey": '4d3a1b60-4dc4-11e4-ad0a-a0481cdba483'
+                 */        
+                "customerApiKey": "86577370-7b91-11e4-bcb7-a0481cdc3311"
             },
             "content": {
                 "zone": {
-                        "zoneId": '80263cd5-3be2-4a3a-a6e3-360adbbcc6ed',
+                        "zoneId": "722c991a-3ebb-4143-b441-5b0c0cf680a0",
                         "fences": {
                             "circles": [
                                 {
-                                    "name": "Test Circular fence with 8M radius",
+                                    "name": "722c991a-3ebb-4143-b441-5b0c0cf680a0",
                                     "color": "#000ffff",
                                     "radius": 8.00,
                                     "center": {
@@ -34,12 +34,12 @@ var request = require('request');
                                     "name": "A bounding box with north east and south west",
                                     "color": "#3559e",
                                     "northEast": {
-                                        "latitude": -37.8159544565362,
-                                        "longitude": 144.9723565578461
-                                    },
-                                    "southWest": {
                                         "latitude": -37.81758175613945,
                                         "longitude": 144.9731397628784
+                                    },
+                                    "southWest": {
+                                        "latitude": -37.8159544565362,
+                                        "longitude": 144.9723565578461                                        
                                     }
                                 }
                             ],

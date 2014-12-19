@@ -16,11 +16,11 @@ var application = {
     },
     "content": {
         "application" : {
-            "applicationId" : '6e28197b-81a3-4995-9990-93ea3178cb5e',
-            "name" : 'A Bluedot Application - Updated',
+            "applicationId" : "6e28197b-81a3-4995-9990-93ea3178cb5e",
+            "name" : "A Bluedot Application - Updated",
             "packageName": "au.com.bluedot.creationtest5",
             /* Time in Hour:Minute format.*/
-            "nextRuleUpdateIntervalFormatted": '00:07'
+            "nextRuleUpdateIntervalFormatted": "00:07"
         }
     }
 };
