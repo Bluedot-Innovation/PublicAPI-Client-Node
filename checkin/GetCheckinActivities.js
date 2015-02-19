@@ -6,7 +6,7 @@ var endDate             = "14/9/2014";
 
 //Increment the page number to get the next 100
 //Example with Date
-request.get ( 'https://api.bluedotinnovation.com/1/checkinactivities/get?simpleCheckIn"zoneId"='+simpleCheckIn"zoneId"+'&customerApiKey=' + customerApiKey+ "&startdate="+startDate + "&enddate="+ endDate+ "&pagenumber=0",
+request.get ( 'https://api.bluedotinnovation.com/1/checkinactivity/get?simpleCheckIn"zoneId"='+simpleCheckIn"zoneId"+'&customerApiKey=' + customerApiKey+ "&startdate="+startDate + "&enddate="+ endDate+ "&pagenumber=0",
     function (error, response)
     {
         if (error) {
