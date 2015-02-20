@@ -6,7 +6,7 @@
 
 var request = require('request');
 var customerApiKey = "86577370-7b91-11e4-bcb7-a0481cdc3311";
-request.get ( 'https://api.bluedotinnovation.com/1/application/getAll?customerApiKey='+customerApiKey,
+request.get ( 'https://api.bluedotinnovation.com/1/applications?customerApiKey='+customerApiKey,
     function (error, response) {
         if (error) {
             console.log(error);
