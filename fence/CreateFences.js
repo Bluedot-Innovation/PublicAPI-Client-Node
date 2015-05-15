@@ -62,6 +62,46 @@ var request = require('request');
                                         }
                                     ]
                                 }
+                            ],
+                            polylines: [
+                                {
+                                    name: "PolyLine Around MCG",
+                                    color: "#000ffff",
+                                    vertices: [
+                                         {
+                                             latitude : -37.818717,
+                                             longitude : 144.983085
+                                         },
+                                         {
+                                            latitude : -37.819540,
+                                            longitude : 144.982125
+                                         },
+                                         {
+                                            latitude : -37.820298,
+                                            longitude : 144.985178
+                                         },
+                                         {
+                                            latitude : -37.820468,
+                                            longitude : 144.984228
+                                         },
+                                         {
+                                             latitude : -37.818768,
+                                             longitude : 144.984330
+                                         },
+                                         {
+                                             latitude : -37.819476,
+                                             longitude : 144.985033
+                                         },
+                                         {
+                                            latitude : -37.820527,
+                                            longitude : 144.982978
+                                         },
+                                         {
+                                            latitude : -37.818887,
+                                            longitude : 144.982587
+                                         }
+                                    ]
+                                }
                             ]
                         }
                     }
