@@ -18,6 +18,7 @@ var fenceData =
             "zoneName": "starbucks",
             /* Time in Hour:Minute format.*/
             "minimumRetriggerTime": "00:01",
+            "enableCheckOut": true,
             "timeActive": {
                 "from": {
                     /* Time in Hour:Minute format.*/
