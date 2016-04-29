@@ -4,7 +4,7 @@
 
  */
 var request = require('request');
-    var fenceData =
+    var actionData =
         {
             "security": {
                 "apiKey" : "c2c8211f-796f-4eda-b6ce-05467b5263a9",

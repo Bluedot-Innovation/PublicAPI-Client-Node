@@ -29,12 +29,11 @@ var options = {
     json: fenceData
 };
 
-    request(options,
-        function (error, response, body) {
-            if (error) {
-                console.log(error);
-            }
-            console.log(JSON.stringify(response.body));
+request(options,
+    function (error, response, body) {
+        if (error) {
+            console.log(error);
         }
-    );
-
+        console.log(JSON.stringify(response.body));
+    }
+);
