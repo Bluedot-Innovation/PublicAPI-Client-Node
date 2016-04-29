@@ -68,6 +68,6 @@ request(options,
         if (error) {
             console.log(error);
         }
-        console.log(response.body);
+        console.log(JSON.stringify(response.body));
     }
 );

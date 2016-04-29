@@ -6,11 +6,21 @@
 
 var request = require('request');
 var customerApiKey = "86577370-7b91-11e4-bcb7-a0481cdc3311";
-request.get ( 'https://api.bluedotinnovation.com/1/applications?customerApiKey='+customerApiKey,
-    function (error, response) {
+var options = {
+    uri: 'https://api.bluedotinnovation.com/1/applications?customerApiKey='+customerApiKey,
+    method: 'GET'
+};
+request ( options,
+    function (error, response, body) {
         if (error) {
             console.log(error);
         }
-        console.log(response.body);
+        var result = response.body;
+        if( typeof result !== 'string' ) {
+            console.log("WTF");
+            return;
+            result = JSON.stringify(result)
+        }
+        console.log(result);
     }
 );

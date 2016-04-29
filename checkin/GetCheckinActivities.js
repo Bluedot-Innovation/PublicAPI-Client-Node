@@ -1,6 +1,6 @@
 var request             = require('request');
 var simpleCheckIn       = '24d9a245-2087-421b-9972-2af2ee0970f1';
-var customerApiKey      = '846bced3-5049-11e4-8e8e-a0481cdc3311';
+var customerApiKey      = "86577370-7b91-11e4-bcb7-a0481cdc3311";
 var startDate           = "11/9/2014";
 var endDate             = "14/9/2014";
 
@@ -12,6 +12,12 @@ request.get ( 'https://api.bluedotinnovation.com/1/checkinactivities?simpleCheck
         if (error) {
             console.log(error);
         }
-        console.log(response.body);
+        var result = response.body;
+        if( typeof result !== 'string' ) {
+            console.log("WTF");
+            return;
+            result = JSON.stringify(result)
+        }
+        console.log(result);
     }
 );

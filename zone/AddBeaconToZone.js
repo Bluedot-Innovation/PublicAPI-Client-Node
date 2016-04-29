@@ -7,12 +7,12 @@ var request = require('request');
     var fenceData =
     {
         "security": {
-            "apiKey": "fe1b2108-5e5d-45fd-94fe-bdb0c3103748",
-            "customerApiKey": "86577370-7b91-11e4-bcb7-a0481cdc3311"
+            "apiKey": 'c2c8211f-796f-4eda-b6ce-05467b5263a9',
+            "customerApiKey": '86577370-7b91-11e4-bcb7-a0481cdc3311'
         },
         "content": {
             "zone": {
-                "zoneId": "8da20128-4c20-460a-ba22-c5275ef3a9c6",
+                "zoneId": "d69781dc-3cb1-4303-9888-1800060fabb6",
                 "beacons": [
                     {
                         beaconId : "f4d3c2f3-b2ba-4529-adac-18af1598ee4f",
@@ -34,7 +34,7 @@ var options = {
             if (error) {
                 console.log(error);
             }
-            console.log(response.body);
+            console.log(JSON.stringify(response.body));
         }
     );
 

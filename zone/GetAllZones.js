@@ -7,14 +7,20 @@
 var request  = require('request');
 
 
-var  apiKey         = '066ce100-2677-11e4-9331-bc305bf60831';
-var  customerApiKey = '50e40a61-79d3-11e4-b239-a0481cdba483';
+var  apiKey         = 'c2c8211f-796f-4eda-b6ce-05467b5263a9';
+var  customerApiKey = '86577370-7b91-11e4-bcb7-a0481cdc3311';
 
 request.get ( 'https://api.bluedotinnovation.com/1/zones?customerApiKey=' +customerApiKey+ '&apiKey=' + apiKey + "&pageNumber=0",
     function (error, response) {
         if (error) {
             console.log(error);
         }
-        console.log(response.body);
+        var result = response.body;
+        if( typeof result !== 'string' ) {
+            console.log("WTF");
+            return;
+            result = JSON.stringify(result)
+        }
+        console.log(result);
     }
 );

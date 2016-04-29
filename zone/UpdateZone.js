@@ -6,12 +6,12 @@ var request = require('request');
 var fenceData =
 {
     "security": {
-        "apiKey" : '6cb63bdd-c6fa-43f4-a155-a0dc0919fae0',
+        "apiKey" : 'c2c8211f-796f-4eda-b6ce-05467b5263a9',
         /*
          customerApiKey is generated when customer registers first time. It is also available
          on the PointAccess interface in the Edit Profile section.
          */                
-        "customerApiKey": '564ecdc0-7e86-11e4-95ff-a0481cdba483'
+        "customerApiKey": '86577370-7b91-11e4-bcb7-a0481cdc3311'
     },
     "content": {
         "zone":     {
@@ -46,6 +46,6 @@ request(options,
         if (error) {
             console.log(error);
         }
-        console.log(response.body);
+        console.log(JSON.stringify(response.body));
     }
 );

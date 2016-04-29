@@ -8,7 +8,7 @@ var request = require('request');
 
 var application = {
     security: {
-        apiKey : '669ec2de-c7e9-415a-9680-333025ef9e28',
+        apiKey : 'c2c8211f-796f-4eda-b6ce-05467b5263a9',
         customerApiKey: '86577370-7b91-11e4-bcb7-a0481cdc3311'
     },
     content: {
@@ -34,6 +34,6 @@ request ( options,
         if (error) {
             console.log(error);
         }
-        console.log(response.body);
+        console.log(JSON.stringify(response.body));
     }
 );
