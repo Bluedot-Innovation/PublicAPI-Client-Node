@@ -1,10 +1,10 @@
 /**
- * Created by Arun on 6/10/2014.
+ * Created by Bluedot Team on 6/10/2014.
  * Copyright : Bluedot Innovations.
  * Owner :
  */
 var request = require('request');
-    var fenceData =
+    var zoneData =
     {
         "security": {
             "apiKey": 'c2c8211f-796f-4eda-b6ce-05467b5263a9',
@@ -26,7 +26,7 @@ var request = require('request');
 var options = {
     uri: 'https://api.bluedotinnovation.com/1/zones/beacons',
     method: 'POST',
-    json: fenceData
+    json: zoneData
 };
 
 request(options,

@@ -1,12 +1,12 @@
 /**
- * Created by Arun on 16/09/2014.
- * Copyright : Bluedot Innovations.
+ * Created by Bluedot Innovation on 16/09/2014.
+ * Copyright : Bluedot Innovation.
  *
  */
 
 var request = require('request');
 
-var application = {
+var beaconData = {
     security: {
         apiKey : 'c2c8211f-796f-4eda-b6ce-05467b5263a9',
         customerApiKey: '86577370-7b91-11e4-bcb7-a0481cdc3311'
@@ -26,7 +26,7 @@ var application = {
 var options = {
     uri: 'https://api.bluedotinnovation.com/1/beacons',
     method: 'POST',
-    json: application
+    json: beaconData
 };
 
 request ( options,

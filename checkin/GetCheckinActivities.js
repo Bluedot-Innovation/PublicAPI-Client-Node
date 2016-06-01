@@ -1,7 +1,11 @@
+/**
+ * Created by Bluedot Team
+ * Get a list of checkins
+ */
 var request             = require('request');
 var simpleCheckIn       = '24d9a245-2087-421b-9972-2af2ee0970f1';
 var customerApiKey      = "86577370-7b91-11e4-bcb7-a0481cdc3311";
-var applicationApiKey      = "86577370-7b91-11e4-bcb7-a0481cdc3311";
+var applicationApiKey   = "86577370-7b91-11e4-bcb7-a0481cdc3311";
 var startDate           = "11/9/2014";
 var endDate             = "14/9/2014";
 

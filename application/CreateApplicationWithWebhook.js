@@ -1,5 +1,4 @@
 /**
- * Created by Bluedot Innovation on 16/09/2014.
  * Copyright : Bluedot Innovations.
  */
 
@@ -16,9 +15,18 @@ var applicationData = {
     "content": {
         "application" : {
             "name" : "A Bluedot Application",
-            "packageName": "au.com.bluedot.creationtest",
+            "packageName": "com.bluedot.creationtest",
             /* Time in Hour:Minute format.*/
-            "nextRuleUpdateIntervalFormatted": "00:07"
+            "nextRuleUpdateIntervalFormatted": "00:07",
+            "webhook": {
+            	/*The URL of the server where the webhooks will be received.*/
+            	"url": "https://api.campusapp.com/webhook/checkinreceiver",
+                "enabled": true,
+                /*The Security Token Key is the name of the field to be sent in the POST request header.*/
+                "securityTokenKey": "authToken",
+                /*The Security Token Value field is value of the Security Token Key field sent in the POST request header.*/
+                "securityTokenValue": "f2f7a58c-f0d5-498c-9bad-acbc89923dc5"
+            }
         }
     }
 };

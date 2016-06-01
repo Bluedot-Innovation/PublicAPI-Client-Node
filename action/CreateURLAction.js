@@ -1,9 +1,8 @@
 /**
- *
  * Copyright : Bluedot Innovations.
  */
 var request = require('request');
-var fenceData =
+var actionData =
 {
     "security": {
         "apiKey" : "dcbd2c48-577e-4187-959e-b8f9216e9875",
@@ -32,7 +31,7 @@ var fenceData =
 var options = {
     uri: 'https://api.bluedotinnovation.com/1/actions',
     method: 'POST',
-    json: fenceData
+    json: actionData
 };
 request(options,
     function (error, response, body) {

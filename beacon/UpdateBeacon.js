@@ -1,6 +1,6 @@
 var request = require('request');
 
-var beacon = {
+var beaconData = {
     security: {
         apiKey : '8e766280-0b3a-11e5-89f3-1289088180cb',
         customerApiKey: '203830a0-e272-11e4-a1e0-aa465fbb5c67'
@@ -25,7 +25,7 @@ var beacon = {
 var options = {
     uri: 'https://api.bluedotinnovation.com/1/beacons',
     method: 'POST',
-    json: beacon
+    json: beaconData
 };
 
 request ( options,
