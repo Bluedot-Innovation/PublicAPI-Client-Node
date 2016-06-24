@@ -1,15 +1,22 @@
 /**
- * Copyright : Bluedot Innovation
+ * @author Bluedot Innovation
+ * Copyright (c) 2016 Bluedot Innovation. All rights reserved.
+ * Create Multiple fence client demonstrates adding fences of various shapes in a single JSON request to an existing zone 
+ * using 'request' node module.
  */
 var request = require('request');    
 var multipleFenceData =
     {
         "security": {
+        	/* The apiKey is generated when you create an application. */
             "apiKey": "386dc374-0a57-47f3-beb7-5862cade8a31",
+            /* The customerApiKey is generated when customer registers first time. It is also available
+             * on the PointAccess interface in the Edit Profile section. */ 
             "customerApiKey": "7cd1ea80-d40e-11e4-84cb-b8ca3a6b879d"
         },
         "content": {
             "zone": {
+            	/* The zoneId is the id of the zone being updated. This can be fetched by calling GET zones API */
                 "zoneId": "95b8285d-f85d-48d1-9c4d-b2e7f12ec6bf",
                 "fences": {
                     "circles": [

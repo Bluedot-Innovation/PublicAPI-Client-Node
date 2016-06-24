@@ -1,15 +1,16 @@
 /**
- * Copyright : Bluedot Innovations.
+ * @author Bluedot Innovation
+ * Copyright (c) 2016 Bluedot Innovation. All rights reserved.
+ * Add Application with Webhook client demonstrates adding an application for which a Webhook will be enabled, to your Bluedot backend
+ * using the 'request' node module.
  */
 
 var request = require('request');
 
 var applicationData = {
     "security": {
-        /*
-         customerApiKey is generated when customer registers first time. It is also available
-         on the PointAccess interface in the Edit Profile section.
-         */
+    	/* The customerApiKey is generated when customer registers first time. It is also available
+         * on the PointAccess interface in the Edit Profile section. */ 
         "customerApiKey": "86577370-7b91-11e4-bcb7-a0481cdc3311"
     },
     "content": {

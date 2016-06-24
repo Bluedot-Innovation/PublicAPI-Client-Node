@@ -1,25 +1,30 @@
 /**
- * 
- * Copyright : Bluedot Innovations.
-
- */
+* @author Bluedot Innovation
+* Copyright (c) 2016 Bluedot Innovation. All rights reserved.
+* Update fence client demonstrates updating existing geofences within a zone using 'request' node module.
+* Circular fence
+* Bounding Box
+* Polygonal
+* Geoline
+*/
 var request = require('request');
 var fenceData =
 {
-            "security": {
-                "apiKey" : "c2c8211f-796f-4eda-b6ce-05467b5263a9",
-                /*
-                 customerApiKey is generated when customer registers first time. It is also available
-                 on the PointAccess interface in the Edit Profile section.
-                 */                
-                "customerApiKey": "86577370-7b91-11e4-bcb7-a0481cdc3311"
-            },
-            "content": {
-                "zone": {
+    "security": {
+    	/* The apiKey is generated when you create an application. */
+        "apiKey" : "c2c8211f-796f-4eda-b6ce-05467b5263a9",
+        /* The customerApiKey is generated when customer registers first time. It is also available
+         * on the PointAccess interface in the Edit Profile section. */                 
+        "customerApiKey": "86577370-7b91-11e4-bcb7-a0481cdc3311"
+    },
+    "content": {
+        "zone": {
+        	/* The zoneId is the id of the zone being updated. This can be fetched by calling GET zones API */
             "zoneId": 'b80c81af-7bb8-4c85-9340-b816da5a0ca5',
             "fences": {
                 "rectangles": [
                     {
+                    	/* This is the id of the rectangular fence being updated. This can be fetched by calling the GET zones API*/
                         "fenceId": 'b9875caf-5d33-4bbd-bea3-2144e60eb41a',
                         "name": "A bounding box with north east and south west",
                         "color": "#8b4dff",
@@ -35,6 +40,7 @@ var fenceData =
                 ],
                 "circles": [
                     {
+                    	/* This is the id of the circular fence being updated. This can be fetched by calling the GET zones API */
                         "fenceId": '00f3f2af-bcdf-494e-a81c-481aff88f992',
                         "name": "Test Circular fence with 8M radius",
                         "color": "#000ffff",
@@ -47,6 +53,7 @@ var fenceData =
                 ],
                 "polygons": [
                     {
+                    	/* This is the id of the polygonal fence being updated. This can be fetched by calling the GET zones API*/
                         "fenceId": '36c9521e-3e8b-437a-a27d-9527c46a0b55',
                         "name": "A Polygonal Fence",
                         "color": "#836bff",
