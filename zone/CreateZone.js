@@ -51,7 +51,7 @@ var zoneActiveAllDayData =
             "zoneName": "starbucks",
             "minimumRetriggerTime": "00:01",
             "enableCheckOut": false,
-            "activeAllDay": ture
+            "activeAllDay": true
         }
     }
 };
