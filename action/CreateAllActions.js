@@ -24,16 +24,6 @@ var actionData =
                             "name": "A Custom Application action"
                         }
                     ],
-                    "soundActions": [
-                        {
-                            "name": "A Sound action"
-                        }
-                    ],
-                    "vibrationActions": [
-                        {
-                            "name": "A Vibration action"
-                        }
-                    ],
                     "urlActions": [
                         {
                             "name": "Bluedot URL",

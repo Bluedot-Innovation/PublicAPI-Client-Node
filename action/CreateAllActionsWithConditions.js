@@ -19,36 +19,6 @@ var actionData =
             	/* The zoneId is the id of the zone being updated. This can be fetched by calling GET Zones API*/
                 "zoneId": "722c991a-3ebb-4143-b441-5b0c0cf680a0",
                 "actions": {
-                    "soundActions": [
-                        {
-                            "name" : 'A Sound Action',
-                            "conditions": {
-                                "percentageCrossed":
-                                    [{
-                                    	"percentage": 45,
-                                        /* Time in Hour:Minute format.*/
-                                        "timeoutPeriod": "00:01"
-                                    }],
-                                "dateRange": 
-                                	[{
-                                        "start": "12/12/2014",
-                                        "end": "14/12/2014"
-                                    }],
-                                "timeActive": [{
-                                    "from": {
-                                        /* Time in Hour:Minute format.*/
-                                        "time": "10:00",
-                                        "period": "am"
-                                    },
-                                    "to": {
-                                        /* Time in Hour:Minute format.*/
-                                        "time": "02:00",
-                                        "period": "pm"
-                                    }
-                                }]
-                            }
-                        }
-                    ],
                     "customActions": [
                         {
                             "name" : 'A custom action',
@@ -65,36 +35,6 @@ var actionData =
                                         "end": "14/12/2014"
                                     }
                                 ],
-                                "timeActive": [{
-                                    "from": {
-                                        /* Time in Hour:Minute format.*/
-                                        "time": "10:00",
-                                        "period": "am"
-                                    },
-                                    "to": {
-                                        /* Time in Hour:Minute format.*/
-                                        "time": "2:00",
-                                        "period": "pm"
-                                    }
-                                }]
-                            }
-                        }
-                    ],
-                    "vibrationActions": [
-                        {
-                            "name" : 'A Vibration Action',
-                            "conditions": {
-                                "percentageCrossed":
-                                    [{
-                                    	"percentage": 45,
-                                        /* Time in Hour:Minute format.*/
-                                        "timeoutPeriod": "00:01"
-                                    }],
-                                "dateRange": 
-                                	[{
-                                        "start": "12/12/2014",
-                                        "end": "14/12/2014"
-                                    }],
                                 "timeActive": [{
                                     "from": {
                                         /* Time in Hour:Minute format.*/
