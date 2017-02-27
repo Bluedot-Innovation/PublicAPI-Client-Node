@@ -2,7 +2,7 @@
   "name": "PublicApi-node-client",
   "description": "This Node.js client project provides examples on how to interact with the Bluedot Public APIs. " +
   		"The examples can be run from command line or an IDE with Node.js plugin.",
-  "version": "1.9.2",
+  "version": "1.9.4",
   "author": {
     "name": "Bluedot Innovation",
     "email": "devops@bluedotinnovation.com",

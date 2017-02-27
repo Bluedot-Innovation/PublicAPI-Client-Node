@@ -21,7 +21,8 @@ var multipleFenceData =
                 "fences": {
                     "circles": [
                         {
-                            "name": "Test Circular fence with 8M radius",
+                            "order": 1,
+                        	"name": "Test Circular fence with 8M radius",
                             "color": "#000fff",
                             "radius": 8,
                             "center": {
@@ -30,7 +31,8 @@ var multipleFenceData =
                             }
                         },
                         {
-                            "name": "Test Circular fence with 16M radius",
+                        	"order": 2,
+                        	"name": "Test Circular fence with 16M radius",
                             "color": "#fff234",
                             "radius": 16,
                             "center": {
@@ -41,7 +43,8 @@ var multipleFenceData =
                     ],
                     "rectangles": [
                         {
-                            "name": "A bounding box with north east and south west",
+                        	"order": 3,
+                        	"name": "A bounding box with north east and south west",
                             "color": "#3559ef",
                             "northEast": {
                                 "latitude": "-37.81544591805361",
@@ -55,7 +58,8 @@ var multipleFenceData =
                     ],
                     "polygons": [
                         {
-                            "name": "A Polygonal Fence",
+                        	"order": 4,
+                        	"name": "A Polygonal Fence",
                             "color": "#000fff",
                             "vertices": [
                                 {
@@ -83,7 +87,8 @@ var multipleFenceData =
                     ],
                     "polylines": [
                         {
-                            "name": "PolyLine Around MCG",
+                        	"order": 5,
+                        	"name": "PolyLine Around MCG",
                             "color": "#000fff",
                             "vertices": [
                                 {

@@ -46,7 +46,8 @@ var zoneTimeActiveData =
                     	/*This is the ID of a beacon registered to a customer's account, 
                     	 * which has to be associated with a zone.  */
                         "beaconId" : "f4d3c2f3-b2ba-4529-adac-18af1598ee4f",
-                        "proximity" : 1
+                        "proximity" : 1,
+                        "order": 1
                     }
                 ]
 	        }
@@ -56,11 +57,7 @@ var zoneTimeActiveData =
 var zoneActiveAllDayData =
 {
     "security": {
-        "apiKey" : "c2c8211f-796f-4eda-b6ce-05467b5263a9",
-        /*
-         customerApiKey is generated when customer registers first time. It is also available
-         on the PointAccess interface in the Edit Profile section.
-         */        
+        "apiKey" : "c2c8211f-796f-4eda-b6ce-05467b5263a9",     
         "customerApiKey": "86577370-7b91-11e4-bcb7-a0481cdc3311"
     },
     "content": {
@@ -72,6 +69,7 @@ var zoneActiveAllDayData =
             "fences": {
                 "circles": [
                     {
+                    	"order": 1
                         "name": "A circleur fence",
                         "color": "#000ffff",
                         "radius": 8.00,

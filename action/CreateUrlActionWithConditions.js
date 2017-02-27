@@ -24,33 +24,49 @@ var actionData =
                             "name" : 'My message actions1',
                             "url" : 'http://wwww.google.com',
                             "conditions": {
-                                "percentageCrossed":
-                                    [
-                                        {
-                                            "percentage": 45,
-                                            /* Time in Hour:Minute format.*/
-                                            "timeoutPeriod": "00:01"
-                                        }
-                                    ],
-                                "dateRange": [
-                                    {
-                                        "start": "12/12/2014",
-                                        "end": "14/12/2014"
-                                    }
-                                ],
-                                "timeActive": [{
-                                    "from": {
-                                        /* Time in Hour:Minute format.*/
-                                        "time": "10:00",
-                                        "period": "am"
-                                    },
-                                    "to": {
-                                        /* Time in Hour:Minute format.*/
-                                        "time": "2:00",
-                                        "period": "pm"
-                                    }
-                                }]
-                            }
+	                            "percentageCrossed": [
+	                                {
+	                                    "percentage": 45,
+	                                    /* Time in Hour:Minute format.*/
+	                                    "timeoutPeriod": "00:01",
+	                                    /*When sequential is set true, the action will be triggered based on the 
+	                                     * sequence in which of geofences, geolines or beacons are passed.*/
+	                                    "sequential": true
+	                                }
+	                            ],
+	                            "dateRange": [
+	                                {
+	                                    "start": "12/12/2014",
+	                                    "end": "14/12/2014"
+	                                }
+	                            ],
+	                            "timeActive": [
+	                                {
+	                                    "from": {
+	                                    	/* Time in Hour:Minute format.*/
+	                                        "time": "10:00",
+	                                        "period": "am"
+	                                    },
+	                                    "to": {
+	                                    	/* Time in Hour:Minute format.*/
+	                                        "time": "2:00",
+	                                        "period": "pm"
+	                                    }
+	                                }
+	                            ],
+	                            "bearing": [
+	                                {
+	                                    "fromAngle": 80,
+	                                    "toAngle": 200
+	                                }
+	                            ],
+	                            "speed": [
+	                                {
+	                                    "minimumSpeed": 10,
+	                                    "maximumSpeed": 30
+	                                }
+	                            ]
+	                        }
                         }
                     ]
                 }

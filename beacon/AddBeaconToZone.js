@@ -23,7 +23,8 @@ var request = require('request');
                     	/*This is the ID of a beacon registered to a customer's account, 
                     	 * which has to be associated with a zone.  */
                         "beaconId" : "f4d3c2f3-b2ba-4529-adac-18af1598ee4f",
-                        "proximity" : 1
+                        "proximity" : 1,
+                        "order": 1
                     }
                 ]
             }
