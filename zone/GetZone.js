@@ -17,7 +17,7 @@ request.get ( 'https://api.bluedotinnovation.com/1/zones?customerApiKey=' + bdCu
         }
         var result = response.body;
         if( typeof result !== 'string' ) {
-            console.log("WTF");
+            console.log("Error in response");
             return;
             result = JSON.stringify(result)
         }

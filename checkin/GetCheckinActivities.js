@@ -23,10 +23,10 @@ request.get ( 'https://api.bluedotinnovation.com/2/checkinactivities?customerApi
         }
         var result = response.body;
         if( typeof result !== 'string' ) {
-            console.log("WTF");
+            console.log("Error in response");
             return;
             result = JSON.stringify(result)
         }
         console.log(result);
-    }
+    }e
 );

@@ -18,7 +18,7 @@ request ( options,
         }
         var result = response.body;
         if( typeof result !== 'string' ) {
-            console.log("WTF");
+            console.log("Error in response");
             return;
             result = JSON.stringify(result)
         }
